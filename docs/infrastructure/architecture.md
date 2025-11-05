@@ -19,7 +19,7 @@ The infrastructure consist of following components:
 Compute cluster is the main part of the infrastructure. It is responsible for the bidder and running the Prometheus stack.
 The cluster utilizes AWS Elastic Kubernetes Service with a node group of spot AWS Graviton 2 instances.
 
-Currently (2021-02-12), the `m6g.16xlarge` instances are used - the most powerful Graviton-based instances that
+Currently (2021-02-12), the `m6g.4xlarge` instances are used - the most powerful Graviton-based instances that
 provide 64 vCPUs, 256 GiB of memory, and 25 Gbps of network bandwidth. 
 
 ### Database

@@ -70,7 +70,7 @@ Parameters:
   ApplicationInstanceType:
     Type: CommaDelimitedList
     Description: Instance type of application node group
-    Default: m6g.16xlarge
+    Default: m6g.4xlarge
 
   ApplicationAmiType:
     Type: String

@@ -40,7 +40,7 @@ We're using AWS EKS managed cluster along with managed NodeGroups. Right now we 
 
 - basic-arm - Graviton2 spot instances (m6g.medium or m6g.large), for app development and simple benchmarking
 - basic-x86 - x86-backed instances for workloads other then ARM (kube-state-metrics, Grafana image renderer)
-- application, benchmark - Graviton2 spot instances (m6g.16xlarge) for benchmarks
+- application, benchmark - Graviton2 spot instances (m6g.4xlarge) for benchmarks
 
 More on managed node groups you can find here:
 

@@ -55,5 +55,5 @@ pid 17773's current affinity list: 0-63
 
 # Notes
 
-On `m6g.16xlarge` with 64 vCPUs we were able to allocate 59 cores exclusively.
+On `m6g.4xlarge` with 64 vCPUs we were able to allocate 59 cores exclusively.
 There rest of cores are used for the OS and daemon sets containers that use shared CPU pool.
